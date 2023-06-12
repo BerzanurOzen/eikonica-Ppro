@@ -1,0 +1,38 @@
+h1 {
+  font-size: 85px;
+  margin: 41px 0 0 34px;
+}
+.introduction-text {
+  font-size: 30px;
+  margin: 27px 0 121px 34px;
+}
+.container-span {
+  background-color: #55865f;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.txt {
+  white-space: nowrap;
+  font-size: 85px;
+  animation: scroll 10s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(-100%);
+  }
+}
+.container-span-programme {
+  background-color: #734f6f;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 42px 0 116px 0;
+}
+.txt-programme {
+  white-space: nowrap;
+  font-size: 85px;
+  animation: scroll 4s linear infinite reverse;
+}
