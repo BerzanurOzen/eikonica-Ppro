@@ -16,7 +16,7 @@ h1 {
 .txt {
   white-space: nowrap;
   font-size: 85px;
-  animation: scroll 10s linear infinite;
+  animation: scroll 10s linear infinite reverse;
 }
 @keyframes scroll {
   0% {
@@ -34,5 +34,5 @@ h1 {
 .txt-programme {
   white-space: nowrap;
   font-size: 85px;
-  animation: scroll 4s linear infinite reverse;
+  animation: scroll 4s linear infinite;
 }
