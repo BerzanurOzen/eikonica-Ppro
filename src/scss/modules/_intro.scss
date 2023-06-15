@@ -4,14 +4,19 @@ h1 {
 }
 .introduction-text {
   font-size: 30px;
-  margin: 27px 0 121px 34px;
+  margin: 27px 51px 121px 34px;
+}
+.img-intro {
+  height: 100%;
+  width: 100%;
 }
 .container-span {
   background-color: #55865f;
-  height: 10vh;
+  height: 12%;
   width: 100%;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 .txt {
   white-space: nowrap;
@@ -25,11 +30,12 @@ h1 {
 }
 .container-span-programme {
   background-color: #734f6f;
-  height: 10vh;
+  height: 12%;
   width: 100%;
   display: flex;
   align-items: center;
-  margin: 42px 0 116px 0;
+  margin: 42px 0 19px 0;
+  overflow: hidden;
 }
 .txt-programme {
   white-space: nowrap;
