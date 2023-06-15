@@ -1,0 +1,33 @@
+.footer-container {
+  display: flex;
+}
+
+.col-footer {
+  flex-basis: 50%;
+}
+.footer-img {
+  height: 100px;
+  width: 400px;
+  margin: 106 0 275px 155px;
+}
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 20px 0 6px 0;
+}
+ul {
+  list-style-type: none;
+}
+.reseau {
+  display: flex;
+  flex-direction: row;
+  margin-top: 49px;
+}
+.reseau-link {
+  margin: 0px 5px 0 5px;
+  font-size: 35px;
+}
+p {
+  font-size: 25px;
+}

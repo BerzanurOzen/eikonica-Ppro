@@ -17,6 +17,26 @@
         src="img/logo-eikonica-white.png"
         alt="logo-eikonica-white"
       />
+      <div class="menu">
+        <span class="menu-icon">Menu</span>
+        <div class="menu-items">
+          <img src="img/img-menu.png" alt="" />
+          <a href="#">Programme</a>
+          <a href="#">Expositions</a>
+          <a href="#">Infos utiles </a>
+          <a href="#">Partenaires</a>
+          <a href="#">Contact </a>
+          <p class="menu-present">Festival des arts numétiques</p>
+        </div>
+      </div>
+
+      <script>
+        document.querySelector(".menu").addEventListener("click", function () {
+          var menuItems = document.querySelector(".menu-items");
+          menuItems.style.display =
+            menuItems.style.display === "block" ? "none" : "block";
+        });
+      </script>
     </nav>
     <main>
       <img class="img-intro" src="/src/img/introduction.jpg" alt="intro" />
@@ -170,28 +190,56 @@
         <img class="img-sponsor" src="img/background.png" alt="backround" />
         <div class="logo-sponsor">
           <img
-            class="logo-fribourg"
             src="img/logos/etat_de_fribourg.svg"
             alt="logo-etat-frib-white"
           />
+          <img src="img/logos/eikon_full.svg" alt="logo-eikon-white" />
+          <img src="img/logos/fri-son.svg" alt="logo-frison-white" />
           <img
-            class="logo-eikon"
-            src="img/logos/eikon_full.svg"
-            alt="logo-eikon-white"
-          />
-          <img
-            class="logo-frison"
-            src="img/logos/fri-son.svg"
-            alt="logo-frison-white"
-          />
-          <img
-            class="logo-lotterie"
             src="img/logos/lotterie_romande_black.svg"
             alt="lotterie_romande_white"
           />
         </div>
       </div>
     </main>
+    <footer>
+      <div class="footer-container">
+        <div class="col-footer">
+          <img
+            class="footer-img"
+            src="img/logo-eikonica-white.png"
+            alt="logo-eikonica-white"
+          />
+        </div>
+        <div class="col-footer">
+          <ul>
+            <li>
+              <a class="footer-link" href="">Politiquede confidentialité</a>
+            </li>
+            <li><a class="footer-link" href="">Informations pratiques</a></li>
+            <li><a class="footer-link" href="">Contact</a></li>
+          </ul>
+          <div class="reseau">
+            <p>suivez-nous :</p>
+            <a class="reseau-link" href=""
+              ><i class="fa-brands fa-linkedin" style="color: #ffffff"></i
+            ></a>
+            <a class="reseau-link" href=""
+              ><i
+                class="fa-brands fa-square-facebook"
+                style="color: #ffffff"
+              ></i
+            ></a>
+            <a class="reseau-link" href=""
+              ><i
+                class="fa-brands fa-square-instagram"
+                style="color: #ffffff"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="js/main.js" type="module"></script>
   </body>
