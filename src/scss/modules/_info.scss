@@ -4,7 +4,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin: 50px 10px 50px 0;
+  margin: 50px 5px 50px 0;
   overflow: hidden;
 }
 .txt-info {
@@ -12,12 +12,39 @@
   font-size: 85px;
   animation: scroll 4s linear infinite;
 }
+
 .container-info {
   display: flex;
-  margin: 41px 6px 80px 41px;
-  background-color: white;
+  margin: 69px 90px 94px 90px;
+  padding-bottom: 50px;
+  border: none;
 }
+
 .article-info {
   flex-direction: row;
-  margin: 41px 6px 41px 0;
+  background-color: rgb(255, 255, 255);
+  border: #55865f solid 3px;
+  padding: 0px 0px 60px 0px;
+  height: 450px;
+}
+.container-table {
+  width: 25%;
+  margin: 3px 3px 0px 6px;
+}
+h4 {
+  color: #734f6f;
+  font-size: 45px;
+  text-align: center;
+  margin: 21px 0 19px 0;
+}
+.info-frison {
+  color: #55865f;
+  font-size: 20px;
+  margin: 57px 11px 30px 11px;
+}
+.info-title {
+  padding: 21px 40px 0px 0;
+}
+.info-second {
+  margin: 15px 72px 0 20px;
 }
