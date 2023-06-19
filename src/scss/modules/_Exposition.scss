@@ -1,0 +1,40 @@
+.container-span-expo {
+  background-color: #55865f;
+  height: 12%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 50px 10px 50px 0;
+  overflow: hidden;
+}
+.txt-programme {
+  white-space: nowrap;
+  font-size: 85px;
+  animation: scroll 4s linear infinite;
+}
+.expo-table {
+  background-color: white;
+  margin: 83px 90px 0px 104px;
+}
+.info-expo {
+  margin: 56px 41px 55px 41px;
+}
+.article-room {
+  margin: 6px 41px 20px 41px;
+}
+.expo-name {
+  margin: 0px 0px 9px 41px;
+}
+.more-info-expo {
+  text-decoration: none;
+  margin: 30px 90px -10px 80px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.more-button-expo {
+  color: #55865f;
+  font-size: 35px;
+  position: relative;
+  left: 96%;
+  bottom: 21px;
+}

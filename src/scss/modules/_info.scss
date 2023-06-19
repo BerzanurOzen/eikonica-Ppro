@@ -1,0 +1,22 @@
+.container-span-info {
+  background-color: #55865f;
+  height: 12%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 50px 10px 50px 0;
+  overflow: hidden;
+}
+.txt-info {
+  white-space: nowrap;
+  font-size: 85px;
+  animation: scroll 4s linear infinite;
+}
+.container-info {
+  display: flex;
+  margin: 41px 6px 0 41px;
+  background-color: white;
+}
+.article-info {
+  flex-direction: row;
+}
